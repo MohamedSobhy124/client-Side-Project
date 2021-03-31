@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCart</title>
+    <style>
+        body{
+            background-color: rgb(218, 253, 253);
+        }
+    </style>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stys.css">
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function() {
+            emailjs.init("user_uVSJ8NGzxeFfIXzptJ7ct");
+             })();
+</script>
+    <script src="mycart.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="slider">
+            <div class="container">
+                <h2>Labtop Company</h2>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="container">
+                <h2>Lab<span>top Com</span>pany </h2>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="regester.html">Register</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="Contact Us.html">Contact Us</a></li>
+                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="mycart.html">My Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="products-container">
+        <div class="product-header" >
+            <h5 class="product-title">PRODUCT</h5>
+            <h5 class="price">PRICE</h5>
+            <h5 class="quantity">QUANTITY</h5>
+            <h5 class="total">TOTAL</h5>
+        </div>
+        <div id="d1" class="products">
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="social-links">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+        <div class="container">
+            <h3>Copy Write &copy; 2021</h3>
+        </div>
+
+    </div>
+</body>
+
+</html>
